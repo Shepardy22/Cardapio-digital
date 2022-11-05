@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import SeletorCategoria from "../SeletorCategoria";
-import FooterMedia from "../FooterMedia";
 
 export default function MenuCategorias() {
     const [categorias, setListaCategorias] = useState([]);

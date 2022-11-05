@@ -4,7 +4,7 @@ import ListaItems from "./components/pages/ListaItems";
 import Logo from "./components/Logo";
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import Container from "./components/layout/Container";
-import Produto from "./components/Produto";
+import Produto from "./components/pages/Produto";
 
 
 function App() {
