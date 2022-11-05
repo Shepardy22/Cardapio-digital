@@ -6,7 +6,7 @@ export default function MenuCategorias() {
     const [categorias, setListaCategorias] = useState([]);
 
     useEffect(() => {
-        fetch("https://my-json-server.typicode.com/Shepardy22/backendCardapio/categorias", {
+        fetch("https://my-json-server.typicode.com/Shepardy22/Cardapio-digital/categorias", {
             method: "GET",
             headers: {
                 "Content-Type": "application/json",

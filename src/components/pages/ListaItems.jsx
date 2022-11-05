@@ -11,7 +11,7 @@ export default function ListaItems() {
     const [items, setItems] = useState({});
 
     useEffect(() => {
-        fetch(`https://my-json-server.typicode.com/Shepardy22/backendCardapio/categorias/${id}`, {
+        fetch(`https://my-json-server.typicode.com/Shepardy22/Cardapio-digital/categorias/${id}`, {
             method: "GET",
             headers: {
                 "Content-Type": "application/json",
