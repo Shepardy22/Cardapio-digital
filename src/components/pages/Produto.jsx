@@ -39,7 +39,7 @@ const {it} = useParams();
     return (
         <div className="mt-28">
             <div className="w-full h-12 flex justify-center items-center">
-                <h1 className="text-white">{produtoSelecionado && produtoSelecionado.nome }</h1>
+                <h1 className="text-2xl text-primaryRed-100 font-medium ">{produtoSelecionado && produtoSelecionado.nome }</h1>
             </div>
 
             <div className="border w-full h-72 flex justify-center items-center">
@@ -54,14 +54,14 @@ const {it} = useParams();
             </div>
 
             <div className="w-full mt-2 h-48 border">
-                <p className="text-white">
+                <p className="text-lg text-primaryRed-200 italic flex justify-center mt-2 ">
                     {produtoSelecionado && produtoSelecionado.descricao}
                 </p>
             </div>
 
             <div className="border w-full h-24 mt-2 flex items-center justify-center">
-                <div className="border h-2/3 w-10/12">
-                    botoes
+                <div className="border h-2/3 w-10/12  text-lg text-primaryRed-200">
+                    Aqui estarão os botões de adicionar e remover
                 </div>
             </div>
 
